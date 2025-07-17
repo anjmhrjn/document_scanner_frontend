@@ -10,7 +10,7 @@ export default function RedirectIfAuth({ children }) {
 
   useEffect(() => {
     if (!loading && user) {
-      router.replace('/dashboard');
+      router.replace('/user-files');
     }
   }, [loading, user, router]);
 

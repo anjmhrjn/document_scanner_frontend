@@ -83,7 +83,7 @@ export default function LoginPage() {
             <form className="space-y-3" onSubmit={handleRegister}>
               <div>
                 <label
-                  for="username"
+                  htmlFor="username"
                   className="block text-sm/6 font-medium text-gray-900"
                 >
                   Username
@@ -103,7 +103,7 @@ export default function LoginPage() {
               </div>
               <div>
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="block text-sm/6 font-medium text-gray-900"
                 >
                   Email
@@ -123,7 +123,7 @@ export default function LoginPage() {
               </div>
               <div>
                 <label
-                  for="firstname"
+                  htmlFor="firstname"
                   className="block text-sm/6 font-medium text-gray-900"
                 >
                   First Name
@@ -143,7 +143,7 @@ export default function LoginPage() {
               </div>
               <div>
                 <label
-                  for="lastname"
+                  htmlFor="lastname"
                   className="block text-sm/6 font-medium text-gray-900"
                 >
                   Last Name
@@ -165,7 +165,7 @@ export default function LoginPage() {
               <div>
                 <div className="flex items-center justify-between">
                   <label
-                    for="password"
+                    htmlFor="password"
                     className="block text-sm/6 font-medium text-gray-900"
                   >
                     Password
@@ -187,7 +187,7 @@ export default function LoginPage() {
               <div>
                 <div className="flex items-center justify-between">
                   <label
-                    for="confirmPassword"
+                    htmlFor="confirmPassword"
                     className="block text-sm/6 font-medium text-gray-900"
                   >
                     Confirm Password

@@ -21,7 +21,7 @@ export default function LoginPage() {
       if (res.success) {
         setUser(res.user);
         toast.success("User login successful!");
-        router.push("/dashboard");
+        router.push("/user-files");
       }
     } catch (err) {
       toast.error("Invalid credentials");
@@ -42,7 +42,7 @@ export default function LoginPage() {
             <form className="space-y-6" onSubmit={handleLogin}>
               <div>
                 <label
-                  for="username"
+                  htmlFor="username"
                   className="block text-sm/6 font-medium text-gray-900"
                 >
                   Username
@@ -64,7 +64,7 @@ export default function LoginPage() {
               <div>
                 <div className="flex items-center justify-between">
                   <label
-                    for="password"
+                    htmlFor="password"
                     className="block text-sm/6 font-medium text-gray-900"
                   >
                     Password
